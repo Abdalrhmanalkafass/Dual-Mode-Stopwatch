@@ -1,0 +1,3576 @@
+14:37:48 **** Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5320 bytes (16.2% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:40:58 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5316 bytes (16.2% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:47:10 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5316 bytes (16.2% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:18:34 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5418 bytes (16.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:19:25 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5418 bytes (16.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:19:39 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5416 bytes (16.5% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:32:48 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5484 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:33:40 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5486 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:34:52 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5482 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:35:02 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5486 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:36:11 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5486 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:38:17 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:38:59 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:40:03 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:42:58 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5752 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:43:16 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5752 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:44:49 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5488 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:45:44 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:153: error: 'moed' undeclared (first use in this function)
+../main.c:153: error: (Each undeclared identifier is reported only once
+../main.c:153: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:45:51 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5496 bytes (16.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:46:09 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5496 bytes (16.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:48:02 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:161: warning: implicit declaration of function 'RED_LED'
+../main.c:163: warning: implicit declaration of function 'YELLOW_LED'
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+./main.o: In function `main':
+../main.c:161: undefined reference to `RED_LED'
+../main.c:163: undefined reference to `YELLOW_LED'
+make: *** [interface1.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:48:35 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:163: warning: implicit declaration of function 'RED_LED'
+../main.c:165: warning: implicit declaration of function 'YELLOW_LED'
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+./main.o: In function `main':
+../main.c:163: undefined reference to `RED_LED'
+../main.c:165: undefined reference to `YELLOW_LED'
+make: *** [interface1.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:48:50 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5588 bytes (17.1% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:50:15 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5588 bytes (17.1% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:51:22 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:51:51 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:54:46 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:10 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5866 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:02:29 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5866 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:04:11 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5858 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:04:24 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5866 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:11:25 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5876 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:11:42 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5876 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:15:45 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5878 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:16:09 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5878 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:16:44 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5880 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:17:05 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5880 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:17:38 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5866 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:19:13 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5866 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:19:48 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5876 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:26:01 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5884 bytes (18.0% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:32:33 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'count_down':
+../main.c:62: error: 'hour_min' undeclared (first use in this function)
+../main.c:62: error: (Each undeclared identifier is reported only once
+../main.c:62: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:32:52 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:33:03 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:33:29 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:34:45 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:35:45 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:36:37 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:36:59 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:37:17 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:37:41 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:38:09 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6028 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:56:38 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6504 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:56:40 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6504 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:57:48 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6528 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:58:54 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6524 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:59:23 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6532 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:02:01 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:201: error: expected identifier or '(' before '}' token
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:02:08 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6932 bytes (21.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:03:54 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:221: error: expected identifier or '(' before '}' token
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:03:59 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7332 bytes (22.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:04:45 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7336 bytes (22.4% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:24:21 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7462 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:25:11 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7470 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:25:55 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7484 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:28:23 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function '__vector_1':
+../main.c:136: error: expected ';' before 'sec_unit'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:28:40 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7484 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:29:19 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7484 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:56:13 **** Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7770 bytes (23.7% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:02:44 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8038 bytes (24.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:02:53 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8038 bytes (24.5% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:40:33 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8046 bytes (24.6% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:50:32 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'sec_dec':
+../main.c:242: warning: statement with no effect
+../main.c:243: warning: statement with no effect
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8114 bytes (24.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:52:49 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'sec_dec':
+../main.c:251: warning: statement with no effect
+../main.c:252: warning: statement with no effect
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8446 bytes (25.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:54:05 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'sec_dec':
+../main.c:251: warning: statement with no effect
+../main.c:252: warning: statement with no effect
+../main.c: In function 'min_dec':
+../main.c:298: warning: statement with no effect
+../main.c:299: warning: statement with no effect
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8782 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:56:55 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8798 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+10:59:22 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8798 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:01:13 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8798 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:01:16 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8798 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:06:45 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8798 bytes (26.8% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:09:56 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9144 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:10:32 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9140 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:13:14 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9260 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:19:20 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9260 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:20:24 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../function.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"function.d" -MT"function.o" -c -o "function.o" "../function.c"
+../function.c: In function 'display':
+../function.c:79: error: 'PORTA' undeclared (first use in this function)
+../function.c:79: error: (Each undeclared identifier is reported only once
+../function.c:79: error: for each function it appears in.)
+../function.c:80: error: 'PORTC' undeclared (first use in this function)
+../function.c:81: warning: implicit declaration of function '_delay_ms'
+../function.c: In function 'timer1_init':
+../function.c:108: error: 'TCCR1B' undeclared (first use in this function)
+../function.c:108: error: 'WGM12' undeclared (first use in this function)
+../function.c:111: error: 'OCR1A' undeclared (first use in this function)
+../function.c:114: error: 'CS12' undeclared (first use in this function)
+../function.c:114: error: 'CS10' undeclared (first use in this function)
+../function.c:117: error: 'TIMSK' undeclared (first use in this function)
+../function.c:117: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:120: error: 'SREG' undeclared (first use in this function)
+../function.c: In function 'pause':
+../function.c:125: error: 'MCUCR' undeclared (first use in this function)
+../function.c:125: error: 'ISC11' undeclared (first use in this function)
+../function.c:125: error: 'ISC10' undeclared (first use in this function)
+../function.c:126: error: 'GICR' undeclared (first use in this function)
+../function.c:126: error: 'INT1' undeclared (first use in this function)
+../function.c:127: error: 'SREG' undeclared (first use in this function)
+../function.c:128: error: 'DDRD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:131: warning: return type defaults to 'int'
+../function.c: In function 'ISR':
+../function.c:131: warning: type of 'INT1_vect' defaults to 'int'
+../function.c:134: error: 'TIMSK' undeclared (first use in this function)
+../function.c:134: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:136: warning: control reaches end of non-void function
+../function.c: In function 'resume':
+../function.c:140: error: 'GICR' undeclared (first use in this function)
+../function.c:140: error: 'INT2' undeclared (first use in this function)
+../function.c:141: error: 'MCUCSR' undeclared (first use in this function)
+../function.c:141: error: 'ISC2' undeclared (first use in this function)
+../function.c:142: error: 'SREG' undeclared (first use in this function)
+../function.c:143: error: 'DDRB' undeclared (first use in this function)
+../function.c:144: error: 'PORTB' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:147: warning: return type defaults to 'int'
+../function.c:147: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:147: warning: type of 'INT2_vect' defaults to 'int'
+../function.c:150: error: 'TIMSK' undeclared (first use in this function)
+../function.c:150: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:151: warning: control reaches end of non-void function
+../function.c: In function 'reset':
+../function.c:154: error: 'MCUCR' undeclared (first use in this function)
+../function.c:154: error: 'ISC01' undeclared (first use in this function)
+../function.c:154: error: 'ISC00' undeclared (first use in this function)
+../function.c:155: error: 'GICR' undeclared (first use in this function)
+../function.c:155: error: 'INT0' undeclared (first use in this function)
+../function.c:156: error: 'SREG' undeclared (first use in this function)
+../function.c:157: error: 'DDRD' undeclared (first use in this function)
+../function.c:158: error: 'PORTD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:160: warning: return type defaults to 'int'
+../function.c:160: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:160: warning: type of 'INT0_vect' defaults to 'int'
+../function.c:168: warning: control reaches end of non-void function
+../function.c: At top level:
+../function.c:169: warning: return type defaults to 'int'
+../function.c:169: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:169: warning: type of 'TIMER1_COMPA_vect' defaults to 'int'
+../function.c:174: warning: control reaches end of non-void function
+../function.c: In function 'RED_LED_ON':
+../function.c:176: error: 'DDRD' undeclared (first use in this function)
+../function.c:177: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'RED_LED_OFF':
+../function.c:181: error: 'DDRD' undeclared (first use in this function)
+../function.c:182: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_ON':
+../function.c:186: error: 'DDRD' undeclared (first use in this function)
+../function.c:187: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_OFF':
+../function.c:190: error: 'DDRD' undeclared (first use in this function)
+../function.c:191: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'current_mode':
+../function.c:195: error: 'DDRB' undeclared (first use in this function)
+../function.c:196: error: 'PORTB' undeclared (first use in this function)
+../function.c:197: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_inc':
+../function.c:210: error: 'DDRB' undeclared (first use in this function)
+../function.c:211: error: 'PORTB' undeclared (first use in this function)
+../function.c:212: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_dec':
+../function.c:234: error: 'DDRB' undeclared (first use in this function)
+../function.c:235: error: 'PORTB' undeclared (first use in this function)
+../function.c:236: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_inc':
+../function.c:265: error: 'DDRB' undeclared (first use in this function)
+../function.c:266: error: 'PORTB' undeclared (first use in this function)
+../function.c:267: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_dec':
+../function.c:294: error: 'DDRB' undeclared (first use in this function)
+../function.c:295: error: 'PORTB' undeclared (first use in this function)
+../function.c:296: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_inc':
+../function.c:325: error: 'DDRB' undeclared (first use in this function)
+../function.c:326: error: 'PORTB' undeclared (first use in this function)
+../function.c:327: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_dec':
+../function.c:347: error: 'DDRB' undeclared (first use in this function)
+../function.c:348: error: 'PORTB' undeclared (first use in this function)
+../function.c:349: error: 'PINB' undeclared (first use in this function)
+make: *** [function.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:20:47 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../function.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"function.d" -MT"function.o" -c -o "function.o" "../function.c"
+../function.c: In function 'display':
+../function.c:79: error: 'PORTA' undeclared (first use in this function)
+../function.c:79: error: (Each undeclared identifier is reported only once
+../function.c:79: error: for each function it appears in.)
+../function.c:80: error: 'PORTC' undeclared (first use in this function)
+../function.c:81: warning: implicit declaration of function '_delay_ms'
+../function.c: In function 'timer1_init':
+../function.c:108: error: 'TCCR1B' undeclared (first use in this function)
+../function.c:108: error: 'WGM12' undeclared (first use in this function)
+../function.c:111: error: 'OCR1A' undeclared (first use in this function)
+../function.c:114: error: 'CS12' undeclared (first use in this function)
+../function.c:114: error: 'CS10' undeclared (first use in this function)
+../function.c:117: error: 'TIMSK' undeclared (first use in this function)
+../function.c:117: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:120: error: 'SREG' undeclared (first use in this function)
+../function.c: In function 'pause':
+../function.c:125: error: 'MCUCR' undeclared (first use in this function)
+../function.c:125: error: 'ISC11' undeclared (first use in this function)
+../function.c:125: error: 'ISC10' undeclared (first use in this function)
+../function.c:126: error: 'GICR' undeclared (first use in this function)
+../function.c:126: error: 'INT1' undeclared (first use in this function)
+../function.c:127: error: 'SREG' undeclared (first use in this function)
+../function.c:128: error: 'DDRD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:131: warning: return type defaults to 'int'
+../function.c: In function 'ISR':
+../function.c:131: warning: type of 'INT1_vect' defaults to 'int'
+../function.c:134: error: 'TIMSK' undeclared (first use in this function)
+../function.c:134: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:136: warning: control reaches end of non-void function
+../function.c: In function 'resume':
+../function.c:140: error: 'GICR' undeclared (first use in this function)
+../function.c:140: error: 'INT2' undeclared (first use in this function)
+../function.c:141: error: 'MCUCSR' undeclared (first use in this function)
+../function.c:141: error: 'ISC2' undeclared (first use in this function)
+../function.c:142: error: 'SREG' undeclared (first use in this function)
+../function.c:143: error: 'DDRB' undeclared (first use in this function)
+../function.c:144: error: 'PORTB' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:147: warning: return type defaults to 'int'
+../function.c:147: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:147: warning: type of 'INT2_vect' defaults to 'int'
+../function.c:150: error: 'TIMSK' undeclared (first use in this function)
+../function.c:150: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:151: warning: control reaches end of non-void function
+../function.c: In function 'reset':
+../function.c:154: error: 'MCUCR' undeclared (first use in this function)
+../function.c:154: error: 'ISC01' undeclared (first use in this function)
+../function.c:154: error: 'ISC00' undeclared (first use in this function)
+../function.c:155: error: 'GICR' undeclared (first use in this function)
+../function.c:155: error: 'INT0' undeclared (first use in this function)
+../function.c:156: error: 'SREG' undeclared (first use in this function)
+../function.c:157: error: 'DDRD' undeclared (first use in this function)
+../function.c:158: error: 'PORTD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:160: warning: return type defaults to 'int'
+../function.c:160: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:160: warning: type of 'INT0_vect' defaults to 'int'
+../function.c:168: warning: control reaches end of non-void function
+../function.c: At top level:
+../function.c:169: warning: return type defaults to 'int'
+../function.c:169: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:169: warning: type of 'TIMER1_COMPA_vect' defaults to 'int'
+../function.c:174: warning: control reaches end of non-void function
+../function.c: In function 'RED_LED_ON':
+../function.c:176: error: 'DDRD' undeclared (first use in this function)
+../function.c:177: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'RED_LED_OFF':
+../function.c:181: error: 'DDRD' undeclared (first use in this function)
+../function.c:182: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_ON':
+../function.c:186: error: 'DDRD' undeclared (first use in this function)
+../function.c:187: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_OFF':
+../function.c:190: error: 'DDRD' undeclared (first use in this function)
+../function.c:191: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'current_mode':
+../function.c:195: error: 'DDRB' undeclared (first use in this function)
+../function.c:196: error: 'PORTB' undeclared (first use in this function)
+../function.c:197: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_inc':
+../function.c:210: error: 'DDRB' undeclared (first use in this function)
+../function.c:211: error: 'PORTB' undeclared (first use in this function)
+../function.c:212: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_dec':
+../function.c:234: error: 'DDRB' undeclared (first use in this function)
+../function.c:235: error: 'PORTB' undeclared (first use in this function)
+../function.c:236: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_inc':
+../function.c:265: error: 'DDRB' undeclared (first use in this function)
+../function.c:266: error: 'PORTB' undeclared (first use in this function)
+../function.c:267: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_dec':
+../function.c:294: error: 'DDRB' undeclared (first use in this function)
+../function.c:295: error: 'PORTB' undeclared (first use in this function)
+../function.c:296: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_inc':
+../function.c:325: error: 'DDRB' undeclared (first use in this function)
+../function.c:326: error: 'PORTB' undeclared (first use in this function)
+../function.c:327: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_dec':
+../function.c:347: error: 'DDRB' undeclared (first use in this function)
+../function.c:348: error: 'PORTB' undeclared (first use in this function)
+../function.c:349: error: 'PINB' undeclared (first use in this function)
+make: *** [function.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:20:56 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../function.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"function.d" -MT"function.o" -c -o "function.o" "../function.c"
+../function.c: In function 'display':
+../function.c:79: error: 'PORTA' undeclared (first use in this function)
+../function.c:79: error: (Each undeclared identifier is reported only once
+../function.c:79: error: for each function it appears in.)
+../function.c:80: error: 'PORTC' undeclared (first use in this function)
+../function.c:81: warning: implicit declaration of function '_delay_ms'
+../function.c: In function 'timer1_init':
+../function.c:108: error: 'TCCR1B' undeclared (first use in this function)
+../function.c:108: error: 'WGM12' undeclared (first use in this function)
+../function.c:111: error: 'OCR1A' undeclared (first use in this function)
+../function.c:114: error: 'CS12' undeclared (first use in this function)
+../function.c:114: error: 'CS10' undeclared (first use in this function)
+../function.c:117: error: 'TIMSK' undeclared (first use in this function)
+../function.c:117: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:120: error: 'SREG' undeclared (first use in this function)
+../function.c: In function 'pause':
+../function.c:125: error: 'MCUCR' undeclared (first use in this function)
+../function.c:125: error: 'ISC11' undeclared (first use in this function)
+../function.c:125: error: 'ISC10' undeclared (first use in this function)
+../function.c:126: error: 'GICR' undeclared (first use in this function)
+../function.c:126: error: 'INT1' undeclared (first use in this function)
+../function.c:127: error: 'SREG' undeclared (first use in this function)
+../function.c:128: error: 'DDRD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:131: warning: return type defaults to 'int'
+../function.c: In function 'ISR':
+../function.c:131: warning: type of 'INT1_vect' defaults to 'int'
+../function.c:134: error: 'TIMSK' undeclared (first use in this function)
+../function.c:134: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:136: warning: control reaches end of non-void function
+../function.c: In function 'resume':
+../function.c:140: error: 'GICR' undeclared (first use in this function)
+../function.c:140: error: 'INT2' undeclared (first use in this function)
+../function.c:141: error: 'MCUCSR' undeclared (first use in this function)
+../function.c:141: error: 'ISC2' undeclared (first use in this function)
+../function.c:142: error: 'SREG' undeclared (first use in this function)
+../function.c:143: error: 'DDRB' undeclared (first use in this function)
+../function.c:144: error: 'PORTB' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:147: warning: return type defaults to 'int'
+../function.c:147: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:147: warning: type of 'INT2_vect' defaults to 'int'
+../function.c:150: error: 'TIMSK' undeclared (first use in this function)
+../function.c:150: error: 'OCIE1A' undeclared (first use in this function)
+../function.c:151: warning: control reaches end of non-void function
+../function.c: In function 'reset':
+../function.c:154: error: 'MCUCR' undeclared (first use in this function)
+../function.c:154: error: 'ISC01' undeclared (first use in this function)
+../function.c:154: error: 'ISC00' undeclared (first use in this function)
+../function.c:155: error: 'GICR' undeclared (first use in this function)
+../function.c:155: error: 'INT0' undeclared (first use in this function)
+../function.c:156: error: 'SREG' undeclared (first use in this function)
+../function.c:157: error: 'DDRD' undeclared (first use in this function)
+../function.c:158: error: 'PORTD' undeclared (first use in this function)
+../function.c: At top level:
+../function.c:160: warning: return type defaults to 'int'
+../function.c:160: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:160: warning: type of 'INT0_vect' defaults to 'int'
+../function.c:168: warning: control reaches end of non-void function
+../function.c: At top level:
+../function.c:169: warning: return type defaults to 'int'
+../function.c:169: error: redefinition of 'ISR'
+../function.c:131: error: previous definition of 'ISR' was here
+../function.c: In function 'ISR':
+../function.c:169: warning: type of 'TIMER1_COMPA_vect' defaults to 'int'
+../function.c:174: warning: control reaches end of non-void function
+../function.c: In function 'RED_LED_ON':
+../function.c:176: error: 'DDRD' undeclared (first use in this function)
+../function.c:177: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'RED_LED_OFF':
+../function.c:181: error: 'DDRD' undeclared (first use in this function)
+../function.c:182: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_ON':
+../function.c:186: error: 'DDRD' undeclared (first use in this function)
+../function.c:187: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'YELLOW_LED_OFF':
+../function.c:190: error: 'DDRD' undeclared (first use in this function)
+../function.c:191: error: 'PORTD' undeclared (first use in this function)
+../function.c: In function 'current_mode':
+../function.c:195: error: 'DDRB' undeclared (first use in this function)
+../function.c:196: error: 'PORTB' undeclared (first use in this function)
+../function.c:197: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_inc':
+../function.c:210: error: 'DDRB' undeclared (first use in this function)
+../function.c:211: error: 'PORTB' undeclared (first use in this function)
+../function.c:212: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'sec_dec':
+../function.c:234: error: 'DDRB' undeclared (first use in this function)
+../function.c:235: error: 'PORTB' undeclared (first use in this function)
+../function.c:236: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_inc':
+../function.c:265: error: 'DDRB' undeclared (first use in this function)
+../function.c:266: error: 'PORTB' undeclared (first use in this function)
+../function.c:267: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'min_dec':
+../function.c:294: error: 'DDRB' undeclared (first use in this function)
+../function.c:295: error: 'PORTB' undeclared (first use in this function)
+../function.c:296: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_inc':
+../function.c:325: error: 'DDRB' undeclared (first use in this function)
+../function.c:326: error: 'PORTB' undeclared (first use in this function)
+../function.c:327: error: 'PINB' undeclared (first use in this function)
+../function.c: In function 'hour_dec':
+../function.c:347: error: 'DDRB' undeclared (first use in this function)
+../function.c:348: error: 'PORTB' undeclared (first use in this function)
+../function.c:349: error: 'PINB' undeclared (first use in this function)
+make: *** [function.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:21:30 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../function.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"function.d" -MT"function.o" -c -o "function.o" "../function.c"
+In file included from ../function.c:9:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../function.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:11:24: warning: interface1.h: No such file or directory
+../main.c: In function 'main':
+../main.c:391: warning: implicit declaration of function 'resume'
+../main.c:392: warning: implicit declaration of function 'pause'
+../main.c:393: warning: implicit declaration of function 'reset'
+../main.c:394: warning: implicit declaration of function 'current_mode'
+../main.c:395: warning: implicit declaration of function 'sec_inc'
+../main.c:396: warning: implicit declaration of function 'sec_dec'
+../main.c:397: warning: implicit declaration of function 'min_inc'
+../main.c:398: warning: implicit declaration of function 'min_dec'
+../main.c:399: warning: implicit declaration of function 'hour_inc'
+../main.c:400: warning: implicit declaration of function 'hour_dec'
+../main.c:404: error: 'mode' undeclared (first use in this function)
+../main.c:404: error: (Each undeclared identifier is reported only once
+../main.c:404: error: for each function it appears in.)
+../main.c:405: warning: implicit declaration of function 'RED_LED_ON'
+../main.c:406: warning: implicit declaration of function 'YELLOW_LED_OFF'
+../main.c:408: warning: implicit declaration of function 'YELLOW_LED_ON'
+../main.c:409: warning: implicit declaration of function 'RED_LED_OFF'
+../main.c:412: warning: implicit declaration of function 'display'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:23:22 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./function.o ./main.o   
+./main.o: In function `main':
+../main.c:385: multiple definition of `sec_unit'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `sec_tens'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `min_unit'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `min_tens'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `hour_unit'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `hour_tens'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `mode'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `count_up'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `count_down'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `display'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `timer1_init'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `pause'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `__vector_2'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `resume'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `__vector_3'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `reset'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `__vector_1'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `__vector_7'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `RED_LED_ON'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `RED_LED_OFF'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `YELLOW_LED_ON'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `YELLOW_LED_OFF'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `current_mode'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `sec_inc'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `sec_dec'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `min_inc'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `min_dec'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `hour_inc'
+./function.o:../function.c:349: first defined here
+./main.o: In function `main':
+../main.c:385: multiple definition of `hour_dec'
+./function.o:../function.c:349: first defined here
+make: *** [interface1.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:23:51 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9260 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:26:34 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9302 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:26:46 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9306 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:27:19 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9306 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:28:19 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9306 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:36:29 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9358 bytes (28.6% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:38:36 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9362 bytes (28.6% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:41:48 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'count_up':
+../main.c:62: warning: implicit declaration of function 'pause'
+../main.c: At top level:
+../main.c:153: warning: conflicting types for 'pause'
+../main.c:62: warning: previous implicit declaration of 'pause' was here
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9466 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:42:31 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9466 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:44:19 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9486 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:54:18 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9500 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+11:56:15 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9500 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:03:35 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9506 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:21:11 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9542 bytes (29.1% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:22:07 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9542 bytes (29.1% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:30:55 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/programs/eclipse/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: interface1.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,interface1.map -mmcu=atmega32 -o "interface1.elf"  ./main.o   
+Finished building target: interface1.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S interface1.elf  >"interface1.lss"
+Finished building: interface1.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9562 bytes (29.2% Full)
+(.text + .data + .bootloader)
+
+Data:         17 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:37:01 **** Incremental Build of configuration Debug for project interface1 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 interface1.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9562 bytes (29.2% Full)
+(.text + .data + .bootloader)
+
+Data:         17 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

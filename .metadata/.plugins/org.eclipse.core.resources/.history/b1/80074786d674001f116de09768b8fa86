@@ -1,0 +1,57 @@
+/*
+ * interface1.h
+ *
+ *  Created on: Sep 17, 2024
+ *      Author: ALKAFASS
+ */
+
+#ifndef INTERFACE1_H_
+#define INTERFACE1_H_
+
+
+signed char sec_unit = 5;
+signed char sec_tens = 0;
+signed char min_unit = 5;
+signed char min_tens = 4;
+signed char hour_unit = 5;
+signed char hour_tens = 8;
+signed char mode = 1;  // 1=count up , 0= count down ,
+
+void count_up() ;
+void count_down() ;
+void display() ;
+void timer1_init() ;
+void pause();
+ISR(INT1_vect);
+void resume ();
+ISR(INT2_vect);
+void reset() ;
+ISR(INT0_vect) ;
+ISR(TIMER1_COMPA_vect) ;
+void RED_LED_ON() ;
+void RED_LED_OFF() ;
+void YELLOW_LED_ON() ;
+void YELLOW_LED_OFF() ;
+void current_mode() ;
+void sec_inc() ;
+void sec_dec() ;
+void min_inc();
+void min_dec() ;
+void hour_inc();
+void hour_dec();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* INTERFACE1_H_ */
